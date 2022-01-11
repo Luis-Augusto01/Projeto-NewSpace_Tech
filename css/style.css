@@ -68,11 +68,9 @@ header, main, footer {
     height: 80vh;
 }
 
-@media screen and (max-width: 950px) {
-    #carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item {
-        height: 30vh;
-    }   
-}
+#cacarouselExampleIndicators h2{
+    font-size: 1px;
+} 
 
 
 #carouselExampleIndicators .carousel-caption {
@@ -105,4 +103,36 @@ header, main, footer {
 
 #card-services-enterprises h4 {
     margin-bottom: 40px;
+}
+
+@media screen and (max-width: 950px) {
+    #carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item {
+        height: auto;
+    }        
+}
+
+@media screen and (max-width: 500px) {
+    #carouselExampleIndicators .carousel-caption h2 {
+        font-size: 25px;
+        margin-bottom: 1px;
+        margin-top: -15px;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    #carouselExampleIndicators .carousel-caption h2 {
+        font-size: 25px;
+        margin-top: 5px;
+        
+    }
+    
+    #carouselExampleIndicators .carousel-caption p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 237px) {
+    #carouselExampleIndicators{
+        opacity: 0;
+    }
 }
