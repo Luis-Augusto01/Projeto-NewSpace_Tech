@@ -1,0 +1,101 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header, main, footer {
+    flex-shrink: 0;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navComplement {
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    background-color: hsla(244, 100%, 6%, 1);
+    font-family: 'optimusweb', 'Arial';
+}
+
+.line {
+    width: 0.5px;
+    height: 30px;
+    background-color: white;
+}
+
+.img-carousel {
+    width: 280px;
+    
+}
+
+.navComplement {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    font-family: 'optimusweb', 'Arial';
+}
+
+.iconModify {
+    font-size: 5em;
+}
+
+.card-service-margin {    
+    width: 40px;
+    height: 40px;
+}
+
+#rodape {
+    background-color: black;
+}
+
+
+#nav-options {        
+    padding-right: 22px;    
+}
+
+#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item {
+    height: 80vh;
+}
+
+#carouselExampleIndicators .carousel-caption {
+    top: 30%;
+}
+
+#carouselExampleIndicators .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#carouselExampleIndicators .carousel-caption p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+#card-services, #card-services div {
+    background-color: hsla(0, 0%, 0%, 1);
+}
+
+#card-services h4 {
+    margin-bottom: 40px;
+}
+
+#card-services-enterprises , #card-services-enterprises div {
+    background-color: hsla(0, 0%, 0%, 1);
+}
+
+#card-services-enterprises h4 {
+    margin-bottom: 40px;
+}
